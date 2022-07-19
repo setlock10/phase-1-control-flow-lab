@@ -19,10 +19,11 @@ function scuberGreetingForFeet(rideLength){
 
 function ternaryCheckCity(cityName){
   // Write your code here!
-  if (cityName=='NYC')
-      return 'Ok, sounds good.';
-  else
-  return 'No go.';
+  // if (cityName=='NYC')
+  //     return 'Ok, sounds good.';
+  // else
+
+  return cityName=='NYC'? 'Ok, sounds good.':'No go.';
 
 }
 
